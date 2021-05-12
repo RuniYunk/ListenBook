@@ -1,0 +1,3 @@
+include ':app', ':pullToRefresh', ':SlidingMenu'
+project(':pullToRefresh').projectDir = new File('pullToRefreshlibrary')
+project(':SlidingMenu').projectDir = new File('SlidingMenulibrary')
