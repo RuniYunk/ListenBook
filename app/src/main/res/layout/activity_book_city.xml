@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.slg.android.listenbook.biz.home.bookcity.BookCityActivity">
+
+     <include layout="@layout/common_title_bar"/>
+
+    <RadioGroup
+        android:id="@+id/book_store_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <RadioButton
+            android:id="@+id/book_store_activity_category_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="分类"
+            android:textColor="@drawable/book_store_activity_rb_bg"
+            android:textSize="15dp"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/book_store_activity_rank_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="排行"
+            android:textColor="@drawable/book_store_activity_rb_bg"
+            android:textSize="15dp"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/book_store_activity_recommend_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="推荐"
+            android:textColor="@drawable/book_store_activity_rb_bg"
+            android:textSize="15dp"
+            android:button="@null"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        <RadioButton
+            android:id="@+id/book_store_activity_special_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="专题"
+            android:textColor="@drawable/book_store_activity_rb_bg"
+            android:textSize="15dp"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        >
+        <View
+            android:id="@+id/book_store_activity_category_view"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/main_menu_text_color_red"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            />
+        <View
+            android:id="@+id/book_store_activity_rank_view"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            />
+        <View
+            android:id="@+id/book_store_activity_recommend_view"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            />
+        <View
+            android:id="@+id/book_store_activity_special_view"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

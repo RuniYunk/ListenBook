@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:id="@+id/title_bar_container"
+    >
+
+
+    <ImageView
+        android:id="@+id/title_bar_back_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_bar_back"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/title_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:textColor="@color/main_menu_text_color_red"
+        android:text="书城"
+        android:layout_marginLeft="17dp"
+        />
+
+    <ImageView
+        android:id="@+id/title_bar_play_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/progress_actionbar_play1"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/title_bar_search_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_bar_search"
+        android:layout_toLeftOf="@id/title_bar_play_img"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        />
+
+
+</RelativeLayout>
