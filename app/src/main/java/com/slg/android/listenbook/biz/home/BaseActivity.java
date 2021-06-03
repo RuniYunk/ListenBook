@@ -13,6 +13,7 @@ public class BaseActivity extends FragmentActivity implements View.OnClickListen
 
     private View textView;
     private View imgBack;
+    private View playImg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +29,14 @@ public class BaseActivity extends FragmentActivity implements View.OnClickListen
         textView =  findViewById(R.id.title_bar_title);
 
         imgBack =  findViewById(R.id.title_bar_back_img);
-
+        playImg = findViewById(R.id.title_bar_play_img);
+        View searchImg = findViewById(R.id.title_bar_search_img);
+        if(searchImg != null){
+            searchImg.setOnClickListener(this);
+        }
+        if (playImg != null){
+            playImg.setOnClickListener(this);
+        }
 
         if(textView!=null){
             textView.setOnClickListener(this);
@@ -81,6 +89,7 @@ public class BaseActivity extends FragmentActivity implements View.OnClickListen
             case R.id.title_bar_title:
                 finish();
                 break;
+
         }
     }
 }

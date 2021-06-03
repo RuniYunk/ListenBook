@@ -1,5 +1,6 @@
 package com.slg.android.listenbook.biz.home.bookcity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.View;
@@ -23,6 +24,11 @@ public class BookCityActivity extends BaseActivity implements RadioGroup.OnCheck
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_city);
+
+        View playImg = findViewById(R.id.title_bar_play_img);
+        if(playImg != null){
+            playImg.setOnClickListener(this);
+        }
 
         pager = (ViewPager) findViewById(R.id.pager);
         radioGroup = (RadioGroup) findViewById(R.id.book_store_radiogroup);
@@ -48,6 +54,18 @@ public class BookCityActivity extends BaseActivity implements RadioGroup.OnCheck
             }
         }
         pager.setCurrentItem(position);
+    }
+
+
+    @Override
+    public void onClick(View v) {
+        int id = v.getId();
+        switch (id){
+            case R.id.title_bar_play_img:
+                Intent intent = new Intent(this,PlayDetailActivity.class);
+                startActivity(intent);
+                break;
+        }
     }
 
     @Override

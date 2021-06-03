@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.slg.android.listenbook.biz.home.bookcity.PlayDetailActivity">
+
+    <include layout="@layout/common_title_bar"/>
+
+    <RadioGroup
+        android:id="@+id/play_detail_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <RadioButton
+            android:id="@+id/play_detail_activity_list_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="播放列表"
+            android:textColor="@drawable/book_store_activity_rb_bg"
+            android:textSize="15dp"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/play_detail_activity_detail_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="专辑详情"
+            android:textColor="@drawable/book_store_activity_rb_bg"
+            android:textSize="15dp"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        >
+        <View
+            android:id="@+id/play_detail_activity_list_view"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/main_menu_text_color_red"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            />
+        <View
+            android:id="@+id/play_detail_activity_detail_view"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/play_detail_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
