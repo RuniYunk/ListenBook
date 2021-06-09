@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.slg.android.listenbook.biz.home.bookcity.BookCityActivity">
+    tools:context="com.slg.android.listenbook.biz.bookcity.BookCityActivity">
 
      <include layout="@layout/common_title_bar"/>
 

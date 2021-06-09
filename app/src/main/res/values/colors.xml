@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="main_menu_text_color_red">#FB3D2D</color>
-    <color name="gray">#ccc</color>
-    <color name="black">#f4282517</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <item type="color" name="abc_search_url_text_selected">@*android:color/black</item>
+    <item type="color" name="abc_search_url_text_pressed">@*android:color/black</item>
+    <color name="red">#ff990000</color>
+    <color name="green">#ff009900</color>
+    <color name="blue">#ff000099</color>
+    <color name="pink">#fff32544</color>
+    <color name="yellow">#fff09b37</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="indicator_title_select_text">#fffb3d2d</color>
+    <color name="indicator_title_unselect_text">#ff292929</color>
+    <color name="default_circle_indicator_fill_color">#ffffffff</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="text_pullrefreshing_buttom">#ff7d7d7d</color>
+    <color name="text_light_gray">#ffb3b3b3</color>
+    <color name="text_gray">#ff717171</color>
+    <color name="text_black">#ff212121</color>
+    <color name="text_light_black">#ff605f5f</color>
+    <color name="text_notifi">#ffeaeaea</color>
+    <color name="text_red">#fffb3d2d</color>
+    <color name="dialog_update_title">#ff959595</color>
+    <color name="dialog_update_content">#ff000000</color>
+    <color name="dialog_update_divider">#ffc6c6c6</color>
+    <color name="dialog_update_now">#fff22426</color>
+    <color name="action_bar_buttom_pressed">#fff0f0f0</color>
+    <color name="shelf_book_name">#ff505050</color>
+    <color name="shelf_reader">#ff898986</color>
+    <color name="shelf_last_chapter">#ffb8b8b5</color>
+    <color name="shelf_devider">#ffabaaaa</color>
+    <color name="paly_bg">#ff2c2c2c</color>
+    <color name="paly_book_name">#ffffffff</color>
+    <color name="paly_book_reader">#ffa9a9a9</color>
+    <color name="paly_book_time">#ff979797</color>
+    <color name="sliding_text">#ff2f2f2f</color>
+    <color name="sliding_bg_pressed">#fffcedeb</color>
+    <color name="actionbar_divider">#ffb5b5b5</color>
+    <color name="type_text">#ff292929</color>
+    <color name="type_second_text">#ff0f0f0f</color>
+    <color name="type_divider">#ffd5d5d5</color>
+    <color name="search_item_pressed">#ffedecec</color>
+    <color name="main_bg">#fff2f2f2</color>
+    <color name="detail_total_time">#ff4e4e4e</color>
+    <color name="detail_info_text">#ff959595</color>
+    <color name="detail_intro_text">#ff1e1e1e</color>
+    <color name="rec_hot_bg">#99000000</color>
+    <color name="rec_over_bg">#ffff8b36</color>
+    <color name="rec_serialized_bg">#ffff472e</color>
+    <color name="notifi_bg">#19000000</color>
+    <color name="fm_music_name">#ff1e1e1e</color>
+    <color name="fm_music_singer">#ff605f5f</color>
+    <color name="fm_music_bg">#ff1e1e1e</color>
+    <color name="fm_channel_select_bg">#ff1e1e1e</color>
+    <color name="fm_channel_select_text">#ffa2a2a2</color>
+    <color name="fm_channel_item_bg_normal">#ff2a2a2a</color>
+    <color name="fm_channel_item_bg_pressed">#ff393939</color>
+    <color name="fm_channel_item_text">#ffc2c2c2</color>
+    <color name="fm_indcator_fill">#fffe2c2c</color>
+    <color name="fm_indcator_stroke">#ff838383</color>
+    <color name="ac_share_trans_bg">#7f000000</color>
+    <color name="text_setting_pressed">#ffe4e4e4</color>
+    <color name="userinfo_line">#ff00c2f3</color>
+    <color name="fb_conversation_text">#ff2a2b2d</color>
+    <color name="fb_conversation_input_bg">#ffefefef</color>
+    <color name="guide_indicator_stroke">#ffffffff</color>
+    <color name="guide_indicator_bg">#32000000</color>
+    <color name="dialog_bg">#e6f6f6f6</color>
+    <color name="dialog_divider">#ffcccdd1</color>
+    <color name="dialog_text">#ff404042</color>
+    <color name="dialog_click">#ffeeeeee</color>
+    <color name="fm_list_head_bg">#fff2f2f2</color>
+    <color name="fm_list_bg">#ffffffff</color>
+    <color name="fm_list_signer">#ffdddddd</color>
+    <color name="umeng_fb_color_btn_pressed">#ff1495f7</color>
+    <color name="umeng_fb_color_btn_normal">#ff333333</color>
+
+<color name="main_menu_text_color_red">#FB3D2D</color>
+<color name="gray">#ccc</color>
+
 
 </resources>

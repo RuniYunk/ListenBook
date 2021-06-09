@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.slg.android.listenbook.biz.home.fragment.BookShelfFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <RelativeLayout
+        android:background="@color/black"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/shelf_player_pic"
+            android:src="@drawable/icon_audio_default"
+            android:scaleType="fitXY"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:text="何以笙箫默"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/shelf_player_pic"
+            android:id="@+id/shelf_player_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/shelf_player_time"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/shelf_player_pic"
+            android:layout_alignBottom="@id/shelf_player_pic"
+            android:textSize="10sp"
+            android:textColor="@color/text_gray"
+            android:text="00:00/00:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/shelf_player_play"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btn_music_play_normal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <ImageView
+            android:id="@+id/shelf_player_loading"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btn_music_loading"
+            android:visibility="gone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/shelf_player_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/style_progressbar"
+        android:layout_width="match_parent"
+        android:max="200"
+        android:layout_height="1.0dip"/>
+
+
+
+</LinearLayout>
