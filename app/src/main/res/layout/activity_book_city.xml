@@ -56,7 +56,6 @@
             android:textSize="15dp"
             android:button="@null"
             android:layout_weight="1"
-            android:layout_marginRight="30dp"
             android:gravity="center"
             />
 
